@@ -10,6 +10,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import static printerCsv.ReadPrinters.PrinterRead;
 
 
 
@@ -21,7 +22,8 @@ public class MainGui extends javax.swing.JFrame {
 
     public MainGui() {
         initComponents();
-        displaySystemInfo();
+       // displaySystemInfo();
+        
     }
     
     public static String RunCommand(String command) throws IOException {
