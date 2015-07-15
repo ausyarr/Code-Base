@@ -16,9 +16,9 @@ import java.util.Properties;
  * @author Ausyarr
  */
 public class SaveSettings {
-    public static String FileSave(String localhost) throws FileNotFoundException, IOException{
+    public static String FileSave(String localhost, String key) throws FileNotFoundException, IOException{
         Properties properties = new Properties();
-        properties.setProperty("HOST", localhost);
+        properties.setProperty(key, localhost);
         properties.setProperty("VERSION", "0.02");
         
         File file = new File("config.properties");
