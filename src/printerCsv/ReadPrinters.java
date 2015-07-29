@@ -8,7 +8,7 @@ package printerCsv;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 
 
@@ -27,7 +27,7 @@ public class ReadPrinters {
     public static String PrinterRead() throws IOException{
         File file1 = new File("test1.txt");
 	File file2 = new File("test1-copy.txt");
-        FileUtils.copyFile(file1, file2);
+        //FileUtils.copyFile(file1, file2);
         return null; 
     }
     
